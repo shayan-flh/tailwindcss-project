@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url("./main/pictures/business-concept-with-team-close-up.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.navItem {
+    @apply uppercase text-base p-2 cursor-pointer text-sky-950 border-b-4 border-transparent transition-colors duration-200 hover:border-sky-950;
+}
+
+.modalItem {
+    @apply uppercase text-lg text-center p-3 rounded-full hover:bg-sky-900 cursor-pointer transition-all duration-200 hover:text-white
+}
+
+.modal-place {
+    transform: translate(50%, -1000px)
+}
+
+.modal-move {
+    transform: translate(50%, -50%)
+}
+
+.not-active {
+    @apply w-3/12
+}
+
+.active {
+    @apply w-6/12
+}
+
+.text-footer {
+    font-size: 12px;
+}
