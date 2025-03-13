@@ -22,3 +22,4 @@ Before you begin, ensure you have the following installed on your machine:
    cd your-repo-name
    npm i
    npm run build
+then double click on index.html in main folder
